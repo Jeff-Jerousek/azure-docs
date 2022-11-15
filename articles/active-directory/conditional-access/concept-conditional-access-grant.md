@@ -89,7 +89,7 @@ The **Require hybrid Azure AD joined device** control:
 
 Organizations can require that an approved client app is used  to access selected cloud apps. These approved client apps support [Intune app protection policies](/intune/app-protection-policy) independent of any mobile device management solution.
 
-To apply this grant control, the device must be registered in Azure AD, which requires using a broker app. The broker app can be Microsoft Authenticator for iOS, or either Microsoft Authenticator or Microsoft Company Portal for Android devices. If a broker app isn't installed on the device when the user attempts to authenticate, the user is redirected to the appropriate app store to install the required broker app.
+To apply this grant control, the device must be registered in Azure AD, which requires using a broker app. The broker app can be Microsoft Authenticator for iOS, or Microsoft Company Portal for Android devices. If a broker app isn't installed on the device when the user attempts to authenticate, the user is redirected to the appropriate app store to install the required broker app.
 
 The following client apps support this setting, this list isn't exhaustive and is subject to change::
 
